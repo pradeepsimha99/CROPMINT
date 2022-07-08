@@ -62,7 +62,7 @@ input.addEventListener('keyup', function() {
 
     // step-1: removing all the stop words
     var nonStopWords = [];
-    var stopWords = ['a','an','is','as','of','an','in'];
+    var stopWords = [];
     for (var i = 0; i < words.length; i++) {
       // filtering out stop words and numbers
       if (stopWords.indexOf(words[i].toLowerCase()) === -1 && isNaN(words[i])) {
